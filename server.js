@@ -1,5 +1,5 @@
-var express = require('express');
-var morgan = require('morgan');
+var express = require('express'); //create webserver and handle ports and https
+var morgan = require('morgan'); //
 var path = require('path');
 
 var app = express();
