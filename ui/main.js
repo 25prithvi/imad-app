@@ -16,7 +16,7 @@ function moveRight(){
     {
         marginLeft = marginLeft + 2;
         img.style.marginLeft = marginLeft +'px';
-        if(marginLeft == 775)
+        if(marginLeft >= 775)
         {
             flag = 0;
         }
@@ -25,7 +25,7 @@ function moveRight(){
     {
         marginLeft = marginLeft - 2;
         img.style.marginLeft = marginLeft +'px';
-        if(marginLeft == -950)
+        if(marginLeft <= -950)
         {
             flag = 1;
         }
