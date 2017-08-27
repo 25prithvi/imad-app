@@ -10,17 +10,25 @@ element.innerHTML = 'New value';
 var img = document.getElementById('madi');
 
 var marginLeft = 0;
-
+var flag = 1;
 function moveRight(){
-    if(marginLeft <= 1000)
+    if(flag == 1)
     {
         marginLeft = marginLeft + 2;
         img.style.marginLeft = marginLeft +'px';
+        if(marginLeft == 1000)
+        {
+            flag = 0;
+        }
     }
-    else if(marginLeft >= -1000)
+    else 
     {
         marginLeft = marginLeft - 2;
         img.style.marginLeft = marginLeft +'px';
+        if(marginLeft == -1000)
+        {
+            flag = 1;
+        }
     }
     
 }
