@@ -1,5 +1,7 @@
 console.log('Loaded!');
 
+alert("hi");
+
 // Change the text of the main-text div
 var element = document.getElementById('main-text');
 
