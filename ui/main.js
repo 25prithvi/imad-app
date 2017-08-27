@@ -1,6 +1,6 @@
 console.log('Loaded!');
 
-alert("hi");
+
 
 // Change the text of the main-text div
 var element = document.getElementById('main-text');
@@ -21,6 +21,7 @@ function moveRight(){
         if(marginLeft >= 775)
         {
             flag = 0;
+            alert("Change the Direction");
         }
     }
     else 
@@ -30,6 +31,7 @@ function moveRight(){
         if(marginLeft <= -800)
         {
             flag = 1;
+            alert("Change the Direction");
         }
     }
     
