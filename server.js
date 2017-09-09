@@ -67,7 +67,7 @@ function createTemplate(data){
             <div>
                 <form action="/">
                 <input type="text" name="name"/>
-                <input type="submit" value=" Haiiii! Sahi mei!">
+                <input type="submit" value=" Click">
                 </form>
                 
                 
